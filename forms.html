@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <title>BYF - Register</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <h1>
+                black & yellow Festival
+            </h1>
+
+            <div class="register">
+                <input type="text" disabled value="Terms & Conditions apply">
+            </div>
+        </aside>
+
+        <section>
+            <form action="">
+               <div class="input-icon">
+                    <label for="fullname">Name:</label>
+                    <input name="fullname" type="text" placeholder="Your Name">
+                    <i class="fa fa-user-o icon"></i>
+               </div>
+
+                <div class="input-icon">
+                    <label for="emailaddress">Email:</label>
+                    <input type="email" name="emailaddress" placeholder="Email Address">
+                    <i class="fa fa-envelope-o icon"></i>
+                </div>
+
+                <div class="input-icon">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <i class="fa fa-phone icon"></i>
+                </div>
+
+                <div class="input-icon gender">
+                    <label for="gender">Gender:</label>
+                    <p>Male
+                        <input type="radio" name="gender">         
+                    </p>         
+                    <p>Female 
+                        <input type="radio" name="gender"> 
+                    </p>
+                </div>
+
+               <div class="input-icon">
+                    <label for="city">City:</label>
+                    <select name="city" id="city">
+                        <option value="">Please select</option>
+                        <option value="Enugu">Enugu</option>
+                        <option value="Uyo">Uyo</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="PortHarcourt">Port Harcourt</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Abuja">Abuja</option>
+                    </select>
+               </div>
+
+               <div class="tc">
+                    <label for="t&c"></label>
+
+                    <p class="age">
+                        <input type="checkbox">
+                        I am 18 years of age
+                    </p>
+                    <p class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="">Terms and Conditions</a>
+                    </p>
+               </div>
+
+               <div class="input-icon">
+                    <label for="submit"></label>
+                    <input type="submit" value="Register">
+               </div>
+
+            </form>
+        </section>
+    </div>
+</body>
+</html>
