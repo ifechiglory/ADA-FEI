@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+   overflow: hidden;
+}
+
+div.container{
+    width: 100%;
+    height: 650px;
+    background-color:seashell;
+    margin: 0;
+}
+
+aside{
+    height: 660px;
+    width: 60%;
+    margin: 0;
+    float: left;
+    background: url(../img/yellow.jpg);
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h1{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+aside input{
+    height: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    color: #565;
+    background-color: transparent;
+}
+
+section{
+    background-color: #101820;
+    color: silver;
+    padding: 20px;
+    width: 37%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+section form{
+    width: 100%;
+}
+
+section form label{
+    display: block;
+    width: 50px;
+    padding: 10px;
+}
+
+section form .input-icon{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+section form input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: #000;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FFD602;
+    position: absolute;
+    font-size: 15px;
+}
+
+section form .icon{
+    position: relative;
+    top: 5px;
+    color: #333;
+    padding: 10px;   
+}
+
+section form .gender input{
+    width: 70px;
+}
+
+section form .gender p{
+    display: inline;
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+}
+
+section form select{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: #000;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FFD602;
+}
+
+section form select option{
+    background-color:ghostwhite ;
+}
+
+section form .tc{
+    width: 100%;
+}
+
+section form .tc .checkbox, .age{
+    display: inline;
+    margin-left: 15px;
+}
+
+section form .tc input[type=checkbox]{
+    width: 20px;
+    position: relative;
+}
+
+section form a{
+    color: yellow;
+}
+
+section form a:hover{
+    color:ghostwhite;
+}
+
+section form input[type=submit]{
+    width: 150px;
+    text-transform: uppercase;
+    margin-left: 140px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: ghostwhite;
+}
+
+section form input[type=submit]:hover{
+    border: 1px solid blue;
+    color:gold;
+}
