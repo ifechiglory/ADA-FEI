@@ -82,6 +82,12 @@ section form input{
     font-size: 15px;
 }
 
+section form input:focus{
+    border: 1px solid yellow;
+    background-color: antiquewhite;
+    outline: none;
+}
+
 section form .icon{
     position: relative;
     top: 5px;
@@ -89,8 +95,10 @@ section form .icon{
     padding: 10px;   
 }
 
-section form .gender input{
-    width: 70px;
+section form .gender{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
 }
 
 section form .gender p{
@@ -98,6 +106,10 @@ section form .gender p{
     width: 150px;
     float: left;
     margin-left: 15px;
+}
+
+section form .gender input[type=radio]{
+    width: 20px;
 }
 
 section form select{
@@ -147,6 +159,6 @@ section form input[type=submit]{
 }
 
 section form input[type=submit]:hover{
-    border: 1px solid blue;
+    border: 1px solid red;
     color:gold;
 }

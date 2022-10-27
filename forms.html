@@ -29,16 +29,16 @@
         </aside>
 
         <section>
-            <form action="">
+            <form action="" method="POST">
                <div class="input-icon">
                     <label for="fullname">Name:</label>
-                    <input name="fullname" type="text" placeholder="Your Name">
+                    <input name="fullname" type="text" placeholder="Your Name" autofocus required>
                     <i class="fa fa-user-o icon"></i>
                </div>
 
                 <div class="input-icon">
                     <label for="emailaddress">Email:</label>
-                    <input type="email" name="emailaddress" placeholder="Email Address">
+                    <input type="email" name="emailaddress" placeholder="Email Address" required>
                     <i class="fa fa-envelope-o icon"></i>
                 </div>
 
@@ -48,7 +48,7 @@
                     <i class="fa fa-phone icon"></i>
                 </div>
 
-                <div class="input-icon gender">
+                <div class="gender">
                     <label for="gender">Gender:</label>
                     <p>Male
                         <input type="radio" name="gender">         
