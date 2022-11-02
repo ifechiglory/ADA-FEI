@@ -57,15 +57,12 @@ span.exclaim:hover{
     margin: auto;
 }
 
-li::before{
-    content: "\2022";
+li::marker{
     color: green;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    font-size: 1.5em;
 }
 
 li{
-    list-style: none;
+    
     text-align: justify;
 }
