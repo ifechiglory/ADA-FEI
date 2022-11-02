@@ -1,0 +1,71 @@
+*{
+    text-align: center;
+    color: deepskyblue;
+}
+
+body{
+    background-color: #101357;
+}
+
+main{
+    width: 30%;
+    height: 400px;
+    border: 2px dashed turquoise;
+    margin: 8% auto 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+h1{
+    font-size: 40px;
+    color: yellow;
+}
+
+@keyframes hoverme{
+    0%{
+        color: turquoise;
+    }
+
+    20%{
+        color: deeppink;
+    }
+
+    40%{
+        color: red;
+    }
+
+    60%{
+        color: fuchsia;
+    }
+
+    80%{
+        color: lightpink;
+    }
+
+    100%{
+        color: magenta;
+    }
+}
+
+span.exclaim:hover{
+    animation: hoverme 3s infinite;
+    cursor: pointer;
+}
+
+.libraries{
+    width: 40%;
+    margin: auto;
+}
+
+li::before{
+    content: "\2022";
+    color: green;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li{
+    list-style: none;
+    text-align: justify;
+}
