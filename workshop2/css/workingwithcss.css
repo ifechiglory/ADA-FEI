@@ -39,11 +39,11 @@ h1{
     }
 
     80%{
-        color: lightpink;
+        color: crimson;
     }
 
     100%{
-        color: magenta;
+        color: lime;
     }
 }
 
@@ -63,6 +63,5 @@ li::marker{
 }
 
 li{
-    
     text-align: justify;
 }
