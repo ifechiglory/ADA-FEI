@@ -8,7 +8,7 @@ I found out that the ::marker pseudo selector is definetly not the same thing as
 
 The ::before pseudo selector basically creates a child element and appends it to the element you are working on.
 
-The ::marker pseudo selector selects the marker box of a list item. This [resource (https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)] helped a lot in my research on the marker psuedo selector. 
+The ::marker pseudo selector selects the marker box of a list item. This [resource](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) helped a lot in my research on the marker psuedo selector. 
 
 Ideally, the marker box is what I should use to change the color of my list style type but it was not marking well *(:sob:)*
 
