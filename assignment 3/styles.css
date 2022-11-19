@@ -39,6 +39,10 @@ section .block{
     border-bottom: 1px solid ;
 }
 
+section .block .extratext{
+    display: none;
+}
+
 section .block:last-child{
     border-bottom: none;
 }
@@ -127,6 +131,10 @@ footer .socialmedia-text{
         border-bottom: none;
         display: inline-block;
         margin: 0 5px 0;
+    }
+
+    section .block .extratext{
+        display: block;
     }
 
     .aside{
