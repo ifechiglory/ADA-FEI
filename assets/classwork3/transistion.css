@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+.card{
+    width: 25%;
+    height: 500px;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+.company{
+    width: 100%;
+    height: 150px;
+    border-bottom-right-radius: 40%;
+    background-color: darkblue;
+}
+
+.company h3{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: darkgrey;
+    font-size: 30px;
+}
+
+.company .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 25%;
+    border: 1px dashed white;
+    position: relative;
+}
+
+.img:hover{
+    transform: scale(2);
+}
+
+.company .avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+div.person{
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+}
+
+div.person h2{
+    margin: 0;
+    font-size: 25px;
+}
+
+h4{
+    margin: 0;
+}
+
+div.footer{
+    background-color: darkblue;
+    padding: 10px;
+    position: relative;
+    top: 25%;
+    color: cornsilk;
+    text-align: center;
+    font-size: 13px;
+    border-top-left-radius: 20px;
+}
+
+@media only screen and (min-width: 450px) {
+    .card{
+        width: 25%;
+        height: 500px;
+        margin: auto;
+        background-color: ghostwhite;
+    }
+    
+    .company{
+        width: 100%;
+        height: 150px;
+        border-bottom-right-radius: 40%;
+        background-color: darkblue;
+    }
+    
+    .company h3{
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        color: darkgrey;
+        font-size: 30px;
+    }
+    
+    .company .avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        left: 25%;
+        border: 1px dashed white;
+        position: relative;
+    }
+    
+    .avatar:hover{
+        transform: scale(2);
+    }
+    
+    .company .avatar img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    div.person{
+        width: 100%;
+        text-align: center;
+        margin-top: 40%;
+    }
+    
+    div.person h2{
+        margin: 0;
+        font-size: 25px;
+    }
+    
+    h4{
+        margin: 0;
+    }
+    
+    div.footer{
+        background-color: darkblue;
+        padding: 10px;
+        position: relative;
+        top: 25%;
+        color: cornsilk;
+        text-align: center;
+        font-size: 13px;
+        border-top-left-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .card{
+        width: 25%;
+        height: 500px;
+        margin: auto;
+        background-color: ghostwhite;
+    }
+    
+    .company{
+        width: 100%;
+        height: 150px;
+        border-bottom-right-radius: 40%;
+        background-color: darkblue;
+    }
+    
+    .company h3{
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        color: darkgrey;
+        font-size: 30px;
+    }
+    
+    .company .avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        left: 25%;
+        border: 1px dashed white;
+        position: relative;
+    }
+    
+    .avatar:hover{
+        transform: scale(2);
+    }
+    
+    .company .avatar img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    div.person{
+        width: 100%;
+        text-align: center;
+        margin-top: 40%;
+    }
+    
+    div.person h2{
+        margin: 0;
+        font-size: 25px;
+    }
+    
+    h4{
+        margin: 0;
+    }
+    
+    div.footer{
+        background-color: darkblue;
+        padding: 10px;
+        position: relative;
+        top: 25%;
+        color: cornsilk;
+        text-align: center;
+        font-size: 13px;
+        border-top-left-radius: 20px;
+    }
+}
